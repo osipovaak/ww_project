@@ -1,0 +1,32 @@
+.centeredBtn{
+    margin:auto;
+    text-align: center;
+    height:300px;
+}
+
+.centered{
+    margin:auto;
+    text-align: center;
+}
+
+.hidden{
+    visibility:hidden;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+
+.visible{
+    visibility: visible;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    opacity:1;
+}
+
+.searchBtn{
+    margin: 0 10px 0 10px;
+}
